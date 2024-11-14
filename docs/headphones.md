@@ -1,12 +1,16 @@
 ---
-title: Connect USB headphones (PulseAudio only)
+title: USB headphones (PulseAudio)
 ---
 
-Run `pactl list`.
+Connect your USB headphones to the Pi and then run:
+
+```bash
+pactl list
+```
 
 In the output of `pactl list`, you will see a list of sinks. Each sink has a `Name` and a `Description`. The `Description` will usually contain the name of the device. For example, if you have a USB headset, the `Description` might be `USB Audio Device`.
 
-Set the sink (for example Sink #2) as the default sink:
+Set the sink (for example, sink #2) as the default sink:
 
 ```bash
 pactl set-default-sink 2
