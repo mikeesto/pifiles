@@ -2,20 +2,10 @@
 title: About
 ---
 
-# Welcome to MkDocs
+# PiFiles
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is a collection of notes for working with the Raspberry Pi. For work and personal projects, I often find myself searching for the same information over and over again. This site is a way for me to collate it all in one place. A scrapbook of sorts.
 
-## Commands
+I hope you find it useful too!
 
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+The source code for this site is available on [GitHub](https://github.com/mikeesto/pifiles).
